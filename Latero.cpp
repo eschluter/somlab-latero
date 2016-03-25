@@ -58,7 +58,7 @@ bool Latero::turnOn() {
 }
 
 bool Latero::turnOff() {
-	cout << "Close dat shit!" << endl;
+	cout << "Latero disconnected" << endl;
 	if ( latero_close(platero) < 0 )
 		return false;
 	return true;
