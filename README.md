@@ -1,4 +1,4 @@
-LATERO CONTROL CLASS
+# Latero Control Class
 
 Latero.cpp contains a class which defines a latero device object. A latero is an eight by eight bed of nails array composed of piezos which can be deflected laterally. The coordinated activity of these deflections produce shear forces in any contacting object, usually skin, which are designed to simulate natural percepts. See the following paper,
 
@@ -12,4 +12,3 @@ Directory "latero_winAPI" contains the latero API provided by Tactile Labs which
 
 Erik Schluter
 March 25, 2016
-
